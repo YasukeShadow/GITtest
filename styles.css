@@ -1,0 +1,22 @@
+.rouge{
+    background-color: red;
+    content-visibility: hidden;
+}
+
+.vert {
+    background-color:green;
+    content-visibility: hidden;
+}
+
+.orange {
+    background-color:orange;
+    content-visibility: hidden;
+
+}
+
+table, th,td {
+    border :2px solid black;
+    
+}
+
+ 

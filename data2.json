@@ -1,0 +1,8 @@
+{
+    "dataUser": {
+        "nom" : "jbc",
+        "adress" :" 33 rue des reines",
+        "statut" : "vide",
+        "signal" : "green"
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>nom</th>
+                <th>adresse</th>
+                <th>statut</th>
+                <th>signalisation</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>aldi</td>
+                <td>18 rue des champs 1020 laeken</td>
+                <td>entré refusé</td>
+                <td class="rouge">rouge</td>
+            </tr>
+            <tr>
+                <td>decathlon</td>
+                <td>27 rue des olives 1000 bruxelles</td>
+                <td>vide</td>
+                <td class="vert">vert</td>
+            </tr>
+            <tr>
+                <td>kfc</td>
+                <td>84 avenue des folies</td>
+                <td>entré ralenti</td>
+                <td class="orange">orange</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <form action="">
+        <h2>create new ligne :</h2>
+        
+        <div>
+            <input type="text" id="nom" placeholder="nom" value="">
+            <input type="text" id ="adress" placeholder="adresse" value="">
+            <input type="text" id = "statut" placeholder="statut" value="">
+            <input type="text" id = "signal" placeholder="signalisation" value="">
+            <br>
+            
+            <h3>validations:</h3>
+            <button type="submit" id="submit">inserer database</button>
+
+            <button type="button" id="button" onclick="getName()">envoyer</button>
+
+            <button type="button" id="" onclick = "getInput()" > nom +a dress</button>
+
+            <button type="button" id="btnStatut">statut</button>
+
+            <button type="button" id="createTable">create table</button>
+
+            <button type="button" id="createAllTable">create all table</button>
+
+        </div>
+        <br>
+        <div class="data">
+            <p></p>
+            <button id = "getdata" type="button">GETdata</button>
+        </div>
+    </form>
+    <script src="./index3.js"></script>
+</body>
+</html>
